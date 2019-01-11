@@ -2,5 +2,6 @@
 # returns the phrase
 #
 def parrot (phrase=Squawk, punctuation=!)
-  puts "#{phrase punctuation}"
+  puts "#{phrase}#{punctuation}"
+  return phrase
 end
