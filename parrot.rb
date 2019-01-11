@@ -3,5 +3,4 @@
 #
 def parrot (phrase=Squawk, punctuation=!)
   puts "#{phrase punctuation}"
-  return phrase punctuation
 end
